@@ -34,9 +34,9 @@ title: Your Company Name - Empowering Your Business with AI Agents
   <div class="blog-grid">
     {% for post in site.posts limit:2 %}
       <div class="blog-post">
-        <h3><a href="/ta-webpages{{ post.url }}">{{ post.title }}</a></h3>
+        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
         <p>{{ post.excerpt }}</p>
-        <a href="/ta-webpages{{ post.url }}" class="read-more">Read More</a>
+        <a href="{{ post.url }}" class="read-more">Read More</a>
       </div>
     {% endfor %}
   </div>
