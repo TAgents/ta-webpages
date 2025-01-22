@@ -1,2 +1,2 @@
-theme: github-metadata
+remote_theme: jekyll/github-metadata
 baseurl: "/ta-webpages"
