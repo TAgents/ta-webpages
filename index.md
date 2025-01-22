@@ -33,8 +33,8 @@ title: Your Company Name - Empowering Your Business with AI Agents
   <h2>From Our Blog</h2>
   <div class="blog-grid">
     <div class="blog-post">
-      <h3>The Rise of LLM Agents in Customer Service</h3>
-      <p>Learn how LLM agents are transforming the customer service landscape and improving customer satisfaction.</p>
+      <h3>Talking about talking agents</h3>
+      <p>Learn how LLM agents are transforming the interaction between machine and humans.</p>
       <a href="#" class="read-more">Read More</a>
     </div>
     <div class="blog-post">
