@@ -32,16 +32,13 @@ title: Your Company Name - Empowering Your Business with AI Agents
 <section class="blog">
   <h2>From Our Blog</h2>
   <div class="blog-grid">
-    <div class="blog-post">
-      <h3>Talking about talking agents</h3>
-      <p>Learn how LLM agents are transforming the interaction between machine and humans.</p>
-      <a href="#" class="read-more">Read More</a>
-    </div>
-    <div class="blog-post">
-      <h3>5 Ways LLM Agents Can Boost Your Productivity</h3>
-      <p>Discover how LLM agents can automate tasks, improve efficiency, and free up your team's time.</p>
-      <a href="#" class="read-more">Read More</a>
-    </div>
+    {% for post in site.posts limit:2 %}
+      <div class="blog-post">
+        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        <p>{{ post.excerpt }}</p>
+        <a href="{{ post.url }}" class="read-more">Read More</a>
+      </div>
+    {% endfor %}
   </div>
 </section>
 
