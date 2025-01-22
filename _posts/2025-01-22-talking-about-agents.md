@@ -1,6 +1,7 @@
 ---
-title: "talking-about-agents"
+title: "Talking About Agents"
 date: 2025-01-22
+permalink: /2025/01/22/talking-about-agents.html
 ---
 
 The rise of language-based agents like ChatGPT is poised to revolutionize computer-human interaction in profound ways, fundamentally altering how we engage with technology and information. Here's how:
